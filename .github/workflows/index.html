@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gece ve Şafak</title>
+ 
+    <style>
+        
+        *{
+            box-sizing: border-box;
+        }
+         
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #2c2828;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 170px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#ff0077;
+            color:rgb(0, 255, 213);
+        }
+        .ust .logo h1{
+            font-size:5rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#ff0077;
+        }
+ 
+  
+ 
+        .ust .logo h2{
+            font-size:3.2rem;
+        }
+ 
+        .baglanti
+        {
+            color: #ff0077;
+        }
+ 
+        
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin: 10px 0.5rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#66caf8;
+            text-decoration: none;
+            font-size:2.5rem;
+            padding:10 5rem;
+        }
+        .ust .menu ul a:hover{
+            color:rgb(0, 255, 213);
+        }
+ 
+        .orta .bolum1{
+            margin-top:5px;
+            border:10px solid #66caf8;
+            padding:0px;
+        }
+ 
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2.5rem;
+            color: rgb(255, 153, 238);
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 2.3rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        
+ 
+
+  
+ 
+        .cizgi{
+            border-top:dotted 1px #0084ff;
+            margin:20px 0;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #66caf8;
+        }
+        p{
+            color: rgb(0, 255, 213);
+            padding-inline-start: 10;
+        }
+        li{
+            font-size: 20px;
+        }
+        title{
+            font-size: 100;
+        }
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>SpiritBlossom</h1>
+                <h2>DawnBringer</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                     
+                    <li><a href="#">Fotoğraflar</a></li>
+                    <li><a href="#">Şarkılar</a></li>
+                    <li><a href="#">Hakkında</a></li>
+                    <div class="container"> 
+
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara.jpg" width="350" height="550" alt="Kapak resmi">
+       
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara2.jpg" width="300" alt="">
+                <h2>Yone</h2>
+                <p>Klasik</p>
+            </div>
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara3.jpg" width="300" alt="">
+                <h2>Tryndamere</h2>
+                <p>NightBringer </p>
+            </div>
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara5.jpg" width="300" alt="">
+                <h2>Kayn</h2>
+                <p>NightBringer  </p>
+            </div>
+            
+          
+  
+        </div>
+    </div>
+    <div class="orta kapsayici">
+        <div class="bolum2">
+           
+       
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara2.jpg" width="300" alt="">
+                <h2>Yone</h2>
+                <p>Klasik</p>
+            </div>
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara3.jpg" width="300" alt="">
+                <h2>Tryndamere</h2>
+                <p>NightBringer </p>
+            </div>
+            <div class="kutu">
+                <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara5.jpg" width="300" alt="">
+                <h2>Kayn</h2>
+                <p>NightBringer  </p>
+            </div>
+          
+  
+        </div>
+        <div class="bolum1">
+            <img src="dawnbringer2.gift.webp" width="338" height="600" alt="Kapak resmi">
+       
+        </div>
+        </div>
+        <div class="orta kapsayici">
+            <div class="bolum2">
+               
+           
+            </div>
+            <div class="bolum2">
+                <div class="kutu">
+                    <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara2.jpg" width="300" alt="">
+                    <h2>Yone</h2>
+                    <p>Klasik</p>
+                </div>
+                <div class="kutu">
+                    <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara3.jpg" width="300" alt="">
+                    <h2>Tryndamere</h2>
+                    <p>NightBringer </p>
+                </div>
+                <div class="kutu">
+                    <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara5.jpg" width="300" alt="">
+                    <h2>Kayn</h2>
+                    <p>NightBringer  </p>
+                </div>
+                
+              
+      
+            </div>
+            </div>
+            <div class="orta kapsayici">
+                <div class="bolum2">
+                   
+               
+                </div>
+                <div class="bolum2">
+                    <div class="kutu">
+                        <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara2.jpg" width="300" alt="">
+                        <h2>Yone</h2>
+                        <p>Klasik</p>
+                    </div>
+                    <div class="kutu">
+                        <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara3.jpg" width="300" alt="">
+                        <h2>Tryndamere</h2>
+                        <p>NightBringer </p>
+                    </div>
+                    <div class="kutu">
+                        <img src="C:\Users\DawnBringer Yone\Desktop\deneme\manzara5.jpg" width="300" alt="">
+                        <h2>Kayn</h2>
+                        <p>NightBringer  </p>
+                    </div>
+                  
+          
+                </div>
+                
+        
+        <div class="bolum3">
+       
+                
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <ul>
+                   <li>deneme</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
